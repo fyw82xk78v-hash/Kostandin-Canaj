@@ -1,0 +1,68 @@
+:root {
+  --bg-primary: #fafafa;
+  --bg-secondary: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #525252;
+  --accent: #0d9488;
+}
+
+.dark {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #171717;
+  --text-primary: #fafafa;
+  --text-secondary: #a3a3a3;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background 0.3s, color 0.3s;
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.section {
+  padding: 6rem 1.5rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+}
+
+.card {
+  background: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.glass-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.7);
+}
